@@ -14,11 +14,14 @@
         table {
             width: 900px;
         }
+        tfoot {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <table border="1" align="center">
-        <thead>
+    <table align="center">
+        <thead> <!-- header -->
             <tr>
                 <td height="89">
                     <img src="./imgs/logo.png">
@@ -29,9 +32,9 @@
                     <a href="./contact.html">Contact</a>
                 </td>
             </tr>
-        </thead>
+        </thead> <!-- header /end -->
 
-        <tbody>
+        <tbody> <!-- body -->
             <tr>
                 <td colspan="2">
                     <img src="./imgs/capa.png">
@@ -51,7 +54,15 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus culpa totam corporis laborum deleniti delectus quisquam ipsa nostrum repellendus repellat natus consequatur repudiandae molestias magnam adipisci alias maiores, sequi <strong>cum</strong>!</p>
                 </td>
             </tr>
-        </tbody>
+        </tbody> <!-- body /end -->
+
+        <tfoot> <!-- footer -->
+            <tr>
+                <td colspan="2">
+                    <h4>All rights resrved</h4>
+                </td>
+            </tr>
+        </tfoot> <!-- footer /end -->
     </table>
 </body>
 </html>
