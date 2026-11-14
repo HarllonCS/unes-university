@@ -19,14 +19,14 @@ This project showcases a classic table-based page layout architecture alongside 
 
 ## Getting Started
 
-1. Clone or download this repository to your local machine.
+**1.** Clone or download this repository to your local machine.
 ```bash
 git clone https://github.com/HarllonCS/unes-university.git
 ```
 
-2. Open the `index.html` file in any web browser.
+**2.** Open the `index.html` file in any web browser.
 
-3. Use the top navigation bar to switch between **Home**, **About us**, and **Contact**.
+**3.** Use the top navigation bar to switch between **Home**, **About us**, and **Contact**.
 
 ## Lincese
 
