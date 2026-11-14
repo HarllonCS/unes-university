@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>UNES - University | Contacts</title>
+
+    <style>
+        body {
+            background: url(./imgs/fundo2.png);
+        }
+        table {
+            width: 900px;
+        }
+        tfoot {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table align="center">
+        <thead> <!-- header -->
+            <tr>
+                <td height="89">
+                    <img src="./imgs/logo.png">
+                </td>
+                <td align="right">
+                    <a href="./index.html">Home</a> |
+                    <a href="./about-us.html">About us</a> |
+                    <a href="./contact.html">Contact</a>
+                </td>
+            </tr>
+        </thead> <!-- header /end -->
+
+        <tbody> <!-- body -->
+            <tr>
+                <td colspan="2">
+                    <h2>Get in touch</h2>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, minima molestias, nam fugit quo qui eveniet sit blanditiis dolorem numquam recusandae esse accusantium omnis deleniti pariatur impedit dolor! Rerum, repellendus?</p>
+
+                    <hr>
+
+                    <form action="">
+                        <div class="input-group"> <!-- email -->
+                            <label for="idEmail">Your email:</label><br>
+                            <input type="email" name="email" id="idEmail"><br>
+                        </div> <!-- email /end -->
+                        
+                        <div class="input-group"> <!-- subject -->
+                            <label for="idSubject">Subject:</label><br>
+                            <input type="text" name="subject" id="idSubject"><br>
+                        </div> <!-- subject /end -->
+
+                        <div class="input-group"> <!-- description -->
+                            <label for="idDesc">Description:</label><br>
+                            <textarea name="desc" id="idDesc"></textarea><br>
+                        </div> <!-- description /end -->
+
+                        <button type="submit">Send</button>
+                    </form>
+                </td>
+            </tr>
+        </tbody> <!-- body /end -->
+
+        <tfoot> <!-- footer -->
+            <tr>
+                <td colspan="2">
+                    <h4>All rights reserved</h4>
+                </td>
+            </tr>
+        </tfoot> <!-- footer /end -->
+    </table>
+</body>
+</html>
